@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-grupo3-deployment
+  labels:
+    app: apache-grupo3
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: apache-grupo3
+  template:
+    metadata:
+      labels:
+        app: apache-grupo3
+    spec:
+      containers:
+      - name: apache-grupo3
+        image: matiezeruiz/utn-ayso-grupo3:v1
