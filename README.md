@@ -3,7 +3,7 @@ Welcome to our repository!
 
 We are Kevin, Matías, Sofía and Facundo, and we are studying Programming at UTN in Rosario.
 
-This is a practical activity to apply knowledge we've learned during the assignment Architecture and Operative Systems in charge of Eng. Santucci and Eng. Romero.
+This is a practical activity to apply knowledge we've learned during the assignment Arquitectura y Sistemas Operativos in charge of Eng. Santucci and Eng. Romero.
 With this, you can create a cluster, operate it and modify it. Sounds great, right?
 
 If you want to know how it works, here's a step-by-step guide for you to follow:
