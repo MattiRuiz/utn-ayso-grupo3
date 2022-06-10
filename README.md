@@ -3,10 +3,12 @@ Welcome to our repository!
 
 We are Kevin, Matías, Sofía and Facundo, and we are studying Programming at UTN in Rosario.
 
-This is a practical activity to apply knowledge we've learned during the assignment Architecture and Operative Systems.
-You can create a cluster, operate it and modify it. Sounds great, right?
+This is a practical activity to apply knowledge we've learned during the assignment Architecture and Operative Systems in charge of Eng. Santucci and Eng. Romero.
+With this, you can create a cluster, operate it and modify it. Sounds great, right?
 
 If you want to know how it works, here's a step-by-step guide for you to follow:
+
+Note: to run this project, we recommend you to have installed Docker, Kubernetes and Minikube.
 
 FRIENDLY REMINDER: to use the commands or web address, ignore the "" at the beggining and the end of the command/web address.
 
@@ -23,15 +25,15 @@ Now we can start working in our cluster. You're doing great!
 
 Now, all the necessary components will download and then execute. Wait patiently please.
 
-- To know the status of the deployment, try these commands:
+Once it has finished downloading, we must know the status of the deployment, try these commands:
 
 "kubectl get deployments" will show the deploy that's executing.
 "kubectl get rs" shows the same, including the replica set.
 "kubectl get po" show the 3 pods created with the deployment.
 
-To ensure that the Apache server is running properly with its new file "index.html", we have to make sure that it's running in an accesible port, so we have to type another command:
+To ensure that the Apache server is running properly with its new file "index.html", you have to make sure that it's running in an accesible port, so you have to type another command:
 
-"kubectl port-forward <pod's name> 8080" where in <pod's name> you will paste up one of the names of the pods that you saw when typed "kubectl get po" and the assigned port will be 8080
+"kubectl port-forward <pod's name> 8080" where in <pod's name> you will paste up one of the name of a pod that you saw when typed "kubectl get po" and the assigned port will be 8080
 
 Now it's time to test it! Let's go!
 
